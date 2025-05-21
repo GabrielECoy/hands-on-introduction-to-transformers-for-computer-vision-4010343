@@ -47,5 +47,4 @@
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
 	// Pull all branches
 	"postAttachCommand": "git pull --all",
-	"postCreateCommand": "sh .devcontainer/startup.sh"
 }
