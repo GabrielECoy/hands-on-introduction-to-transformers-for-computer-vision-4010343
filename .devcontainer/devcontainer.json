@@ -1,13 +1,6 @@
 {
 	"name": "Python 3",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": "..",
-		"args": {
-			"VARIANT": "3.10", // Set Python version here
-			"NODE_VERSION": "lts/*"
-		}
-	},
+	"image": "ghcr.io/danielgural/fiftyone-wkshp-container:latest",
 	"customizations": {
 		"codespaces": {
 			"openFiles": [
@@ -38,12 +31,18 @@
 			"extensions": [
 				"linkedinlearning.linkedinlearning-vscode-theme",
 				"ms-python.python",
-				"ms-python.vscode-pylance"
-				// Additional Extensions Here
+				"ms-python.vscode-pylance",
+			        "ms-python.debugpy",
+				"GitHub.github-vscode-theme",
+			        "ms-python.isort",
+			        "ms-toolsai.jupyter",
+			        "ms-toolsai.vscode-jupyter-cell-tags",
+			        "ms-toolsai.jupyter-keymap",
+			        "ms-toolsai.jupyter-renderers",
+			        "ms-toolsai.vscode-jupyter-slideshow"
 			]
 		}
 	},
-	"remoteUser": "vscode",
 	// Update welcome text and set terminal prompt to '$ '
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
 	// Pull all branches
