@@ -3,6 +3,10 @@ This is the repository for the LinkedIn Learning course `Hands-On Introduction t
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
+## Course Decription
+
+Explore the groundbreaking features of vision transformers in this robust machine learning course. Begin with the foundations of transformers and their revolutionary applications in computer vision. Learn how to implement vision transformers, uncover techniques for training and fine-tuning state-of-the-art models, and assess them using rigorous evaluation metrics. Efficiently deploy models using quantization to support edge environments and uncover insights. Observe firsthand the transition from theory to practice through real-world dataset applications. Gain insights into ensuring model safety and reliability through evaluation and debugging techniques. Whether you're an AI researcher, a data engineer, or a developer, this course equips you with the tools to excel in the rapidly evolving landscape of machine learning.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -22,15 +26,15 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+ ## Instructor
+
+Daniel Gural
+
+Machine Learning and DevRel at Voxel51
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-course-url]: https://www.linkedin.com/learning/hands-on-introduction-to-transformers-for-computer-vision
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQEi84RIIU0daQ/learning-public-crop_675_1200/B4EZfMC_zKHYAc-/0/1751475027463?e=2147483647&v=beta&t=ZBlrtAUbYf7Y9pxNMHGObTuaN2sAo8Kvph2gq1P3gds
 
